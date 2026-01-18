@@ -376,14 +376,15 @@ function PricingSection({ onBasicPlanClick }) {
                             </ul>
                         </div>
 
-                        <motion.button
+                        <motion.a
+                            href="https://www.ggcheckout.com/checkout/v2/9OAs76wrXC0t4fnXSfrX"
                             id="a1e466d7-951f-d4b5-2f8c-90d2c9ca5dbe"
-                            className="btn-primary w-full"
+                            className="btn-primary w-full block text-center"
                             animate={{ scale: [1, 1.02, 1] }}
                             transition={{ duration: 2, repeat: Infinity }}
                         >
                             🔥 Escolher Plano Premium
-                        </motion.button>
+                        </motion.a>
                     </motion.div>
                 </div>
             </div>
