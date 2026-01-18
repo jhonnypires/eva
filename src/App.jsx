@@ -533,18 +533,21 @@ function UpsellModal({ onClose }) {
 
                     {/* Action Buttons */}
                     <div className="space-y-3">
-                        {/* Accept Button */}
-                        <button className="w-full bg-gradient-to-r from-pink-500 to-orange-500 hover:from-pink-600 hover:to-orange-600 text-white font-bold py-3.5 px-4 rounded-full transition-all transform hover:scale-105 shadow-lg text-sm">
+                        {/* Accept Button - Premium Plan */}
+                        <a
+                            href="https://www.ggcheckout.com/checkout/v2/hweeM8sRHUvPUmFZOGLL"
+                            className="block w-full bg-gradient-to-r from-pink-500 to-orange-500 hover:from-pink-600 hover:to-orange-600 text-white font-bold py-3.5 px-4 rounded-full transition-all transform hover:scale-105 shadow-lg text-sm text-center"
+                        >
                             🎁 SIM! Quero o Premium por R$ 19,90
-                        </button>
+                        </a>
 
-                        {/* Decline Button with Border */}
-                        <button
-                            onClick={onClose}
-                            className="w-full text-gray-600 hover:text-gray-800 font-medium py-2 transition-all text-xs border border-gray-300 rounded-full hover:border-gray-400"
+                        {/* Decline Button - Basic Plan */}
+                        <a
+                            href="https://www.ggcheckout.com/checkout/v2/on0PFkzVhQsqehC3E0q4"
+                            className="block w-full text-gray-600 hover:text-gray-800 font-medium py-2 transition-all text-xs border border-gray-300 rounded-full hover:border-gray-400 text-center"
                         >
                             Não, prefiro o Plano Básico
-                        </button>
+                        </a>
                     </div>
                 </div>
             </motion.div>
